@@ -1,0 +1,88 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	height: auto;
+}
+.title{
+	width: 100%;
+	height: 3rem;
+	border-bottom: 1px solid #a9d3fd;
+}
+.title h4{
+	height: 3rem;
+	line-height: 3rem;
+	text-align: center;
+	letter-spacing: 0.05rem;
+	color: #5B5D5C;
+}
+.zheng{
+	margin-top: 0.8rem;
+}
+.qian{
+	
+	width: 80%;
+	height: 150px;
+	border: 1px dashed #a9d3fd;
+	border-radius: 5px;
+	margin: auto;
+
+}
+
+.input-file{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    width: auto;
+    /*background-color: #7FCBFF;*/
+    border: solid 1px #ddd;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 18px;
+    color:grey;
+    text-decoration none;
+    margin-top: 4px;
+	width: 20%;
+   margin-left: 38%;
+}
+.input-file input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    background-color: #fff;
+    transform: translate(-300px, 0px) scale(4);
+    height: 40px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+ }
+ 
+.ti{
+	width: 100%;
+	text-align: center;
+	margin-top: 0.5rem;
+}
+.li{
+	width: 100%;
+	height: 20px;
+	background-color: #80C7F7;
+	padding:4px ;
+	letter-spacing: 4px;
+	color: #FFFFFF;
+}

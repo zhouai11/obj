@@ -1,0 +1,58 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+
+html {
+	height: 100%;
+	display: table;
+	width: 100%;
+}
+
+body {
+	width: 100%;
+	height: 200%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+
+	/*background-attachment: fixed;*/
+	display: table-cell;
+	background-color: #e6f5f0;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+/*标题*/
+#titie{
+	width: 100%;
+	text-align: center;
+	padding-top: 6px;
+	min-height: 30px;
+	margin: 12px auto;
+}
+/*内容* /
+ 
+/*article*/
+.article{
+	width: 80%;
+	margin: auto;
+	font-size: 12px;
+	
+}
+.content{
+	width: 80%;
+	margin: auto;
+}
+.content p{
+	font-size: 12px;
+}
+/*标题1*/
+.onetit{
+
+	margin: 4px auto;
+}
+

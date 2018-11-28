@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+
+	<head design-width="750">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no">
+		<title>个人中心</title>
+		<link rel="stylesheet" href="../css/userdatastyle.css" />
+		<link rel="stylesheet" href="../css/ydui.css?rev=@@hash" />
+		<link rel="stylesheet" href="../css/demo.css" />
+		<script src="../js/ydui.flexible.js"></script>
+		<script src="../js/auto-size.js"></script>
+		<script src="../js/jquery.js"></script>
+
+	</head>
+
+	<body>
+		<div class="mobile-wrap center mobile-wrap-mb" ">
+
+	
+		<main>
+		<div class="inform ">
+			
+			
+				<h5 style="letter-spacing: 4px;text-align: center;font-weight: 600;padding-top: 16px; font-family:    " KaiTi ";"> 基本资料</h5>
+		
+			
+			<div class="inform-list ">
+				<ul>
+					<li id="li_staty "  class="acti ">个人信息</li>
+
+				</ul>
+			</div>
+			<div class="inform-text show " id="inform-text_show ">
+				<p >
+					<span style="text-align: left;letter-spacing: 8px; "><i style="color:#ef8e8e;padding:0px 6px; ">*</i>姓名 ：  </span> <input type="text " id="name "
+						placeholder="请输入真实姓名 " />
+				</p>
+				<p>
+					<span style="text-align: left;letter-spacing: 1px "><i style="color: #ef8e8e;padding:0px 6px; ">*</i>联系方式： </span> <input type="text " id="phone "
+						placeholder="请输入联系方式 "
+						onkeyup="this.value=this.value.replace(/\D/g, '') "
+						onafterpaste="this.value=this.value.replace(/\D/g, '') " />
+				</p>
+				<p>
+					<span style="text-align: left;letter-spacing: 1px "> <i style="color: #ef8e8e;padding:0px 6px; ">*</i>芝麻信用分： </span> <input id="score " type="text "
+						placeholder="请输入芝麻分 "
+						onkeyup="this.value=this.value.replace(/\D/g, '') "
+						onafterpaste="this.value=this.value.replace(/\D/g, '') " />
+				</p>
+				<p>
+					<span style="text-align: left;letter-spacing: 1px "><i style="color:#ef8e8e;padding:0px 6px; ">*</i>身份证号： </span> <input type="text " id="ID "
+						placeholder="请输入身份证号码 "
+						onkeyup="this.value=this.value.replace(/\D/g, '') "
+						onafterpaste="this.value=this.value.replace(/\D/g, '') " />
+				</p>
+				<p >
+					<span style="text-align: left;letter-spacing: 1px "><i style="color: #ef8e8e;padding:0px 6px; ">*</i>详细地址：  </span> <input type="text " id="name "
+						placeholder="详细街道 " />
+				</p>
+				<p >
+					<span style="text-align: left;letter-spacing: 1px "><i style="color: #ef8e8e;padding:0px 6px; ">*</i>婚姻状况 ：  </span> 
+					<select style="border: 0px white solid;padding-right:80px;padding-top: 10px ">
+						<option value=" ">请选择婚姻状况</option>	
+						<option value="未婚 ">未婚</option>	
+						<option value="已婚 ">已婚</option>					
+					</select>
+				</p>
+				<p >
+					<span style="text-align: left;letter-spacing: 1px "><i style="color: #ef8e8e;padding:0px 6px; ">*</i>就业状况 ：  </span> 
+					<select style="border: 0px white solid;padding-right:80px;padding-top: 8px ">
+						<option value=" ">请选择就业状况</option>	
+						<option value="无业 ">无业</option>	
+						<option value="已有工作 ">已有工作</option>
+						<option value="在校生 ">在校生</option>						
+					</select>
+				</p>
+				<p >
+					<span style="text-align: left;letter-spacing: 1px "><i style="color: #ef8e8e;padding:0px 6px; ">*</i>最高学历 ：  </span> 
+					<select id="school " style="border: 0px white solid;padding-right:80px;padding-top: 8px ">
+						<option value=" ">请选择最高学历</option>	
+						<option value="小学 ">小学</option>	
+						<option value="初中 ">初中</option>	
+						<option value="高中 ">高中</option>	
+						<option value="大学 ">大学</option>	
+					</select>
+				</p>
+
+				<section class="g-scrollview ">
+					<p>
+						<span style="text-align: left;letter-spacing: 1px " class="cell-left "><i style="color: #ef8e8e;padding:0px 6px; ">*</i>所在地区：</span> <span
+							style="overflow: hidden; " class="cell-right cell-arrow "> <input
+							type="text " class="cell-input " readonly id="J_Address2 "
+							value="中国 新疆维吾尔自治区 乌鲁木齐市 天山区 ">
+						</span>
+					</p>
+				</section>
+				<h4>
+					<input type="submit " name=" " style="background-color:#7FCBFF;text-align: center;" id="Usersubmit " value="点击申请 " /> <br>
+				</h4>
+			</div>
+			<div id="inform-text " class="inform-text ">
+				<img id="stateimg " src="images/icon-pitch.png " alt=" ">
+				<div id="state_div ">
+					<h3>申请成功请耐心等待！</h3>
+				</div>
+				<div id="state_div2 ">
+					<h4>
+						当前审核状态：<b id="state_b ">待审核</b>
+					</h4>
+				</div>
+			</div>
+		</div>
+		</main>
+	</div>
+	<!--mobile_wrap-->
+</body>
+<script type="text/javascript ">
+      $("#userphoneshop ").click(function(){
+		window.location.href='https://api.51datakey.com/h5/importV3/#/carrier?userId=1111&apiKey=ded5d7eae9b2464f941589405a11dbb6&backUrl=http://www.91cdyyb.com/UseroPerator';
+	  })
+	$('#Usersubmit').click(function(){
+		if($("#name ").val()==" "||$("#phone ").val()==" "||$("#Id ").val()==" "||$("#score ").val()==" "){
+			alert("请将信息填写完整! ");
+		}else{
+			if ($("#result_span ").text()==" "){
+				alert("请完成运营商认证 ")
+				return;
+			}
+			if(confirm("请确认信息无误,此操作不可逆!确定提交吗? ") ){
+				$("#inform-text_show ").remove();
+				$("#inform-text ").css("display ",'block');
+				$("#li_staty ").css({"border-bottom ":'.05rem solid #f7505c',"height ":'.66rem',"color ":'red'});
+				$("#li1_staty ").removeClass();
+			}	
+		}
+			
+	})
+</script>
+<script src="../js/jquery.min.js "></script>
+<script src="../js/ydui.citys.js "></script>
+<script src="../js/ydui.js "></script>
+<script>
+    /**
+     * 默认调用
+     */
+    !function () {
+        var $target = $('#J_Address');
+
+        $target.citySelect();
+
+        $target.on('click', function (event) {
+            event.stopPropagation();
+            $target.citySelect('open');
+        });
+
+        $target.on('done.ydui.cityselect', function (ret) {
+        	console.log(ret)
+            $(this).val(ret.country + ' ' + ret.provance + ' ' + ret.city + ' ' + ret.area);
+        });
+    }();
+    /**
+     * 设置默认值
+     */
+    !function () {
+        var $target = $('#J_Address2');
+
+        $target.citySelect({
+        	country: '中国',
+            provance: '新疆维吾尔自治区',
+            city: '乌鲁木齐市',
+            area: '天山区',
+            id: '1-31-330-3033'
+        });
+        $target.on('click', function (event) {
+            event.stopPropagation();
+            $target.citySelect('open');
+        });
+        $target.on('done.ydui.cityselect', function (ret) {
+        	console.log(ret);
+            $(this).val(ret.country + ' ' + ret.provance + ' ' + ret.city + ' ' + ret.area);
+        });
+    }();
+</script>
+</html>

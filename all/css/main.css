@@ -1,0 +1,145 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	height: auto;
+}
+.clear{
+	clear: both;
+}
+/*提示*/
+.tishi{
+	width: 96%;
+	height: 40px;
+	background-color: #f9f9f9;
+	padding: 6px;
+	font-size: 12px;
+	line-height: 20px;
+	margin-top: 8px;
+	margin: auto;
+}
+
+
+.title{
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #80c7f7;
+	text-align: center;
+	line-height: 40px;
+	letter-spacing: 3px;
+	/*font-family: "french script mt";*/
+	/*color: #42AFF9;*/
+}
+.base{
+	width: 90%;
+	margin-top: 1rem;
+	padding: 6px 10px;
+	margin: 20px auto;
+
+	height: 40px;
+}
+.left{
+	width:69%;
+	height: 40px;
+	float: left;
+
+}
+.left input{
+background-color: #7fcbff;
+width:90%;
+height:40px;
+font-size:20px;
+color:white;
+font-weight:bold;
+border-radius:10px;
+margin-left: 1rem;
+border: 0px;
+-webkit-box-shadow: 1px 1px 6px #909090;
+
+}
+.right{
+	width: 10%;
+	height: 40px;
+	float: left;
+	/*background-color: #42AFF9;*/
+	margin: auto;
+	padding: 5px;
+	margin-left: 28px;
+}
+.right img{
+	width: 30px;
+	height: 30px;
+}
+.li{
+height: 30px;
+width: 100%;
+background-color: #80C7F7;
+text-align: center;	
+line-height: 30px;
+color: #fff;
+letter-spacing: 4px;
+margin-top: 1%;
+}
+
+
+
+
+/*资料*/
+.zibox{
+	width: 100%;
+	height: 80px;
+	/*background-color: #42AFF9;*/
+	border-bottom: 1px solid #f9f9f9;
+	color: #333;
+}
+.zibox .b_left{
+	width: 20%;
+	height: 80px;
+	/*background-color: #7FFFD4;*/
+	float: left;
+}
+.zibox .b_left img{
+	width: 30px;
+	height: 30px;
+	margin-top: 20px;
+	margin-left: 16px;
+}
+.zibox .b_right{
+	float: left;
+	width: 78%;
+	height: 80px;
+	/*background-color: #8B78E2;*/
+	/*text-align: center;*/
+	line-height: 80px;
+	
+}
+.dian{
+	width: 100%;
+	height: 40px;
+	background-color: #f9f9f9;
+}
+.xieyi{
+	color: #333;
+	font-size: 12px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	margin: auto;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 30%;
+	
+}
